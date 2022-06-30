@@ -2,10 +2,10 @@ apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 
 ext {
-    extName = 'Zerobyw'
-    pkgNameSuffix = 'zh.zerobyw'
-    extClass = '.Zerobyw'
-    extVersionCode = 9
+extName = 'Zerobyw'
+pkgNameSuffix = 'zh.zerobyw'
+extClass = '.Zerobyw'
+extVersionCode = 10
 }
 
 apply from: "$rootDir/common.gradle"
